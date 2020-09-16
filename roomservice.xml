@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device stuff -->
+  <project name="ShapeShiftOS-Devices/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="android_10" />
+  <project name="NitroFuN/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="ssos-10" />
+  <project name="trinket-devs/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="10.0" />
+  <project name="ghostrider-reborn/android_vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="quartz-a3" />
+  
+  <!-- Display HAL -->
+  <remove-project name="hardware_qcom-caf_sm8150_display" />
+  <project name="trinket-devs/hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="ten" />
+
+  <!-- Proton clang -->
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-12.0" remote="github" revision="master" clone-depth="1" />
+</manifest>
