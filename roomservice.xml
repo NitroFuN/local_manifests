@@ -2,7 +2,7 @@
 <manifest>
   <!-- Device stuff -->
   <project name="ShapeShiftOS-Devices/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="android_10" />
-  <project name="NitroFuN/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="ssos-10" />
+  <project name="ShapeShiftOS-Devices/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="android_10" />
   <project name="trinket-devs/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="10.0" />
   <project name="ghostrider-reborn/android_vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="quartz-a3" />
   
